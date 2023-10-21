@@ -9,10 +9,10 @@ namespace Gasoline.Core.Models
 {
     public class ServiceOperation : IServiceOperation
     {
-        public int Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IVechicle Vechicle { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IMileage Mileage { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime OperationDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IOperationType OperationType { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Id { get; set; }
+        public IVechicle Vechicle { get; set; }
+        public IMileage Mileage { get; set; }
+        public DateTime OperationDate { get; set; }
+        public IOperationType OperationType { get; set; }
     }
 }

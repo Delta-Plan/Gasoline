@@ -9,11 +9,11 @@ namespace Gasoline.Core.Models
 {
     public class Vechicle : IVechicle
     {
-        public int Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IMileage CurrentMileage { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IVechicleInfo VechicleInfo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Description { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int Status { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Id { get; set; }
+        public IMileage CurrentMileage { get; set; }
+        public IVechicleInfo VechicleInfo { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int Status { get; set; }
     }
 }

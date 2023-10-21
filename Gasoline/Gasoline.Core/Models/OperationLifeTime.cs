@@ -9,8 +9,8 @@ namespace Gasoline.Core.Models
 {
     public class OperationLifeTime : IOperationLifeTime
     {
-        public IOperationType OperationType { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IVechicle Vechicle { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IMileage LifeTime { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IOperationType OperationType { get; set; }
+        public IVechicle Vechicle { get; set; }
+        public IMileage LifeTime { get; set; }
     }
 }
